@@ -10,3 +10,6 @@ while true;
   do echo "still live";
   sleep 600;
 done
+
+container stopped delete
+docker rm $(docker ps -a -q)
